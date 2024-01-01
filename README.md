@@ -18,7 +18,7 @@ For making this project:
 - MongoDB for backend storage
 
 
-## Learn More Next.js
+## Learn More About Next.js
 
 To learn more about Next.js, take a look at the following resources:
 
