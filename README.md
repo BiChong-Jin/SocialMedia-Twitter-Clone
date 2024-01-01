@@ -1,5 +1,6 @@
 
-## Getting Started
+## About This Project
+
 http://social-media-twitter-clone-qwnc71f7c-jins-projects-a7432597.vercel.app
 
 This project was deployed on Vercel, for visiting the website, click the url link above.
