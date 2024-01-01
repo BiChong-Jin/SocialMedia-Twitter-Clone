@@ -12,7 +12,7 @@ This project is a Twiiter-liked social media clone as a personal project. By usi
 For making this project:
 
 - React for the frontend
-- NextJS for routing and server sied rendering
+- NextJS for routing and server side rendering
 - Tailwind for css management
 - Prisma for database management
 - MongoDB for backend storage
