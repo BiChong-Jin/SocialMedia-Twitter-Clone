@@ -29,3 +29,16 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Problems I faced during the Deployment process
+
+https://www.prisma.io/docs/orm/more/help-and-troubleshooting/help-articles/vercel-caching-issue
+
+If you are working on a project whiich also using Prisma for database management, during the deployment process on Vercel, you may face an error like this:
+
+bash
+Prisma has detected that this project was built on Vercel, which caches dependencies.
+This leads to an outdated Prisma Client because Prisma's auto-generation isn't triggered.
+To fix this, make sure to run the `prisma generate` command during the build process.
+
+Learn how: https://pris.ly/d/vercel-build
