@@ -11,9 +11,11 @@ This project is a Twiiter-liked social media clone as a personal project. By usi
 
 For making this project:
 
-- React is used for the frontend, NextJS is used for routing and server sied rendering, Tailwind for css management, Prisma is used for database management, and MongoDB for backend storage.
-
-
+- React for the frontend
+- NextJS for routing and server sied rendering
+- Tailwind for css management
+- Prisma for database management
+- MongoDB for backend storage
 
 
 ## Learn More
