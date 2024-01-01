@@ -36,11 +36,10 @@ https://www.prisma.io/docs/orm/more/help-and-troubleshooting/help-articles/verce
 
 If you are working on a project whiich also using Prisma for database management, during the deployment process on Vercel, you may face an error like this:
 
-``bash
-
+```bash
 Prisma has detected that this project was built on Vercel, which caches dependencies.
 This leads to an outdated Prisma Client because Prisma's auto-generation isn't triggered.
 To fix this, make sure to run the `prisma generate` command during the build process.
 
 Learn how: https://pris.ly/d/vercel-build
-``
+```
