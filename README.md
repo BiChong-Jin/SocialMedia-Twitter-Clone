@@ -34,7 +34,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 https://www.prisma.io/docs/orm/more/help-and-troubleshooting/help-articles/vercel-caching-issue
 
-If you are working on a project whiich also using Prisma for database management, during the deployment process on Vercel, you may face an error like this:
+If you are working on a project which also using Prisma for database management, during the deployment process on Vercel, you may face an error like this:
 
 ```bash
 Prisma has detected that this project was built on Vercel, which caches dependencies.
@@ -43,3 +43,5 @@ To fix this, make sure to run the `prisma generate` command during the build pro
 
 Learn how: https://pris.ly/d/vercel-build
 ```
+
+This is mainly because Vercel caches the dependencies of projects until one of those dependencies changes. And you can easily solve this error in two ways by following the docs, the url link above.
