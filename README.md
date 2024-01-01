@@ -5,6 +5,8 @@ http://social-media-twitter-clone-qwnc71f7c-jins-projects-a7432597.vercel.app
 
 This project was deployed on Vercel, for visiting the website, click the url link above.
 
+React is used for the frontend, NextJS is used for routing and server sied rendering, Tailwind for css management, Prisma is used for database management, and MongoDB for backend storage.
+
 
 
 
