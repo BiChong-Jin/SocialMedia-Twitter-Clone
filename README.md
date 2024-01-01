@@ -4,6 +4,8 @@ http://social-media-twitter-clone-qwnc71f7c-jins-projects-a7432597.vercel.app
 
 This project was deployed on Vercel, for visiting the website, click the url link above.
 
+This project is a Twiiter-liked social media clone as a personal project. By using it, you can create an account, edit your personal profile, upload your cover image and profile image, post messages, follow somebody and like other posts.
+
 React is used for the frontend, NextJS is used for routing and server sied rendering, Tailwind for css management, Prisma is used for database management, and MongoDB for backend storage.
 
 
