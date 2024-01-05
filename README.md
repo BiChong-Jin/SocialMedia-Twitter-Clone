@@ -48,3 +48,8 @@ Learn how: https://pris.ly/d/vercel-build
 ```
 
 This is mainly because Vercel caches the dependencies of projects until one of those dependencies changes. And you can easily solve this error in two ways by following the docs, the url link above.
+
+## Possible errors you may face during connecting to MongoDB Atlas
+
+For the varation of the version of MongoDB Atlas, the provided form of connection string may not be the 
+
