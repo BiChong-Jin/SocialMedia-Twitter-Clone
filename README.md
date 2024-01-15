@@ -49,7 +49,15 @@ Learn how: https://pris.ly/d/vercel-build
 
 This is mainly because Vercel caches the dependencies of projects until one of those dependencies changes. And you can easily solve this error in two ways by following the docs, the url link above.
 
-## Possible errors you may face during connecting to MongoDB Atlas
+## Possible errors you may face during the connecting process of MongoDB Atlas
 
-For the varation of the version of MongoDB Atlas, the provided form of connection string may not be the 
+- The connection string
+  
+For the varation of the version of MongoDB Atlas, the provided form of connection string may not be the correct form for you. In this project, connection string for VS code have been used. The connection string provided by MongoDB Atlas was something like this:
+
+```bash
+mongodb+srv://<Your Account Name>:<Your Password>@<Your Database Name>.lnnujfp.mongodb.net/
+```
+
+However, if you just use this form of the string, I think you probably will face a error when you do ``` bash prisma db push ```
 
