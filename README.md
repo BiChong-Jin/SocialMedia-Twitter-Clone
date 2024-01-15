@@ -65,7 +65,7 @@ However, if you just use this form of the string, I think you probably will face
 mongodb+srv://<Your Account Name>:<Your Password>@<Your Database Name>.<Random string>.mongodb.net/<Your Collection Name>?retryWrites=true&w=majority
 ```
 
-So basically you should add the context above after " net/ ", and for the collection name part, you can just name whatever you want. And in fact, if you have a lood of the doc, this part will auto generate for you.
+So basically you should add the context above after " net/ ", and for the collection name part, you can just name whatever you want. And in fact, if you have a look of the doc, this part will auto generate for you.
 
 - The access IP address
 
